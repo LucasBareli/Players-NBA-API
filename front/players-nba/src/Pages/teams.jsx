@@ -4,6 +4,7 @@ import axios from "axios";
 import { Card, Button, Modal, Form } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { FaBasketballBall, FaTrashAlt, FaEdit, FaPlusCircle } from "react-icons/fa";
+import Image from "../images/teste.jfif"
 
 const NBASelection = () => {
   const [teams, setTeams] = useState([]);
@@ -101,7 +102,7 @@ const NBASelection = () => {
       style={{
         backgroundImage: selectedTeam
           ? `url(${selectedTeam.image_arena})`
-          : "url('/default-arena.jpg')",
+          : Image,
       }}
     >
       <div className="bg-black bg-opacity-60 w-full min-h-screen flex flex-col items-center justify-start py-10 px-6">

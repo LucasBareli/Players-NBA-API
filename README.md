@@ -18,6 +18,8 @@ npm run dev
 
 Popular o banco abaixo(caso queira tem de times e de jogadores):
 
+http://127.0.0.1:8001/docs
+
 POST TEAMS
 
 
